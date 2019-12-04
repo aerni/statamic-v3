@@ -1,0 +1,13 @@
+<div class="flex -mx-4 pt-12">
+    {{ collection:products show_unpublished="true" }}
+        <div class="w-1/2 bg-gray-100 rounded p-4 mx-4">
+            {{ images limit="1" }}
+                <div class="w-16">
+                    <img src="{{ url }}" alt="{{ alt }}">
+                </div>
+            {{ /images }}
+            <h2 class="text-2xl">{{ title }}</h2>
+            <p>{{ price }}</p>
+        </div>
+    {{ /collection:products }}
+</div>

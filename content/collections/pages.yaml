@@ -1,0 +1,17 @@
+title: Pages
+route:
+  en: '{{ parent_uri }}/{{ slug }}'
+  de: '{{ parent_uri }}/{{ slug }}'
+sites:
+  - en
+  - de
+template: index
+layout: layout
+blueprints:
+  - page
+structure: pages
+revisions: false
+entry_order:
+  - afc1a41f-c8f7-41eb-a0ff-e2a06ba0bbd0
+  - d190daa4-9500-43b0-b793-ec78ddd45828
+default_status: draft

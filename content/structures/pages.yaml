@@ -1,0 +1,7 @@
+title: Pages
+collections:
+  - pages
+expects_root: true
+sites:
+  - en
+  - de

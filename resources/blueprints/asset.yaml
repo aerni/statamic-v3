@@ -1,0 +1,12 @@
+title: Asset
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: alt
+        field:
+          character_limit: 0
+          type: text
+          localizable: false
+          display: Alt

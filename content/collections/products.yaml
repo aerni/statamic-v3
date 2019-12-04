@@ -1,0 +1,15 @@
+title: Products
+route: 'products/{slug}'
+sites:
+  - en
+  - de
+template: index
+layout: layout
+blueprints:
+  - product
+revisions: false
+entry_order:
+  - 53f9187e-852a-400e-bcec-223ceb073ffd
+  - dd82a2ba-2900-4d02-89e5-51c3f8c4a25f
+sort_dir: desc
+default_status: draft
